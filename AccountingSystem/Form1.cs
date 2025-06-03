@@ -41,6 +41,10 @@ namespace AccountingSystem
                 MessageBox.Show("資料庫連線失敗：" + ex.Message);
             }
         }
-    
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
